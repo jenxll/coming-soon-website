@@ -1,0 +1,80 @@
+.hero-container {
+  height: 425px;
+  width: 1080px;
+  background-image: url("https://source.unsplash.com/random/?boardwalk");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 90px 40px;
+  text-align: center;
+}
+
+.hero-container .hero-header h5 {
+  font-weight: 400;
+  font-size: 1.875rem;
+  margin: 0 111px;
+  font-family: "Alata", sans-serif;
+}
+.hero-container .hero-header h1 {
+  text-shadow: 2px 2px 8px rgb(51 50 95 /40%);
+  letter-spacing: 5px;
+  font-weight: 700;
+  margin: 22px 35px 0;
+  font-size: 4.5rem;
+}
+.hero-container .hero-header h3 {
+  letter-spacing: 3px;
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgb(0 0 0 /40%);
+}
+
+.hero-container .hero-mid-border {
+  width: 612px;
+  margin: 39px auto 0;
+  border: 3px solid white;
+}
+
+.hero-container .hero-call-to-action-container {
+  color: white;
+  margin-top: 50px;
+  letter-spacing: 1.75px;
+}
+.hero-container .hero-call-to-action-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-container .hero-call-to-action-container a:hover {
+  text-decoration: none;
+  filter: brightness(0.95);
+}
+
+.hero-container .hero-call-to-action-container .notify-btn-wrapper {
+  margin-top: 75px;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.hero-container .hero-call-to-action-container .notify-btn-wrapper button {
+  color: white;
+  outline: none;
+  border: none;
+  background-color: #f1680e;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  padding: 25px 50px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+
+.hero-container
+  .hero-call-to-action-container
+  .notify-btn-wrapper
+  button:hover {
+  background-color: white;
+  color: #f1680e;
+}
