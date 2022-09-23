@@ -9,3 +9,8 @@ h3,
 h5 {
   color: white;
 }
+
+a:hover {
+  text-decoration: none;
+  filter: brightness(0.95);
+}
